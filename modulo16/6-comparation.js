@@ -50,9 +50,31 @@
 
 console.log(`
   ¿Cuál será el resultado de las siguientes expresiones?
-  1. 5 > 4
+  1. 5 > 4 
   2. "apple" > "pineapple"
   3. "2" > "12"
   4. undefined == null
   5. undefined === null
 `)
+
+
+/**
+ * 1) true
+ * 2) false
+ * 3) false (le erre... ja, claro tomo el orden de diccionario, dos es mayor que uno)
+ * 4) true
+ * 5) false
+ * 
+
+*/
+
+let test1 = 5 > 4 
+let test2 = "apple" > "pineapple"
+let test3 = "2" > "12"
+let test4 = undefined == null
+let test5 = undefined === null
+console.log(test1)
+console.log(test2)
+console.log(test3)
+console.log(test4)
+console.log(test5)

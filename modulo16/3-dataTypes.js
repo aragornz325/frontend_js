@@ -43,19 +43,19 @@
 // console.log(str2)
 // console.log(phrase)
 
-// let name = "John";
+//  let name = "John";
 
 // interpolar una variable en un string
-// console.log( `Hola, ${name}!` );
+//  console.log( `Hola, ${name}!` );
 
 // interpolar una expresión en un string
 // console.log( `el resultado es ${1 + 2}` ); 
 // console.log(typeof(str))
 
 /**
- * Data Types
- * - Boolean
- */
+* Data Types
+* - Boolean
+*/
 
 // let nameFieldChecked = true; // sí, el campo name está marcado
 // let ageFieldChecked = false; // no, el campo age no está marcado
@@ -74,9 +74,9 @@
  */
 
 // let age = 40
-// let age = ull
+// let age = null
 // console.log(age)
-// console.log(typeof(age))n
+// console.log(typeof(age))
 
 
 /**
@@ -121,3 +121,18 @@ console.log(`
   1. Crear 2 variables cada una deberia tener un dato especifico (name, age)
   2. Escribir un console.log con el siguiente resultado "Hola me llamo null y tengo undefined años"
 `)
+
+let name='rodrigo'
+let age=40
+let nationality='argentino'
+let isGreaterThan= age > 90
+
+
+console.log(  `hola me llamo ${name}, el doble de mi edad es ${2*age} y soy ${nationality} ` );
+console.log(isGreaterThan)
+
+let nameNull = null
+let ageUndefine
+
+console.log(`hola me llamo ${nameNull} y tengo ${ageUndefine} años`);
+
