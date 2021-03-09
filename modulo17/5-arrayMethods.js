@@ -9,14 +9,14 @@
 
 // let arr = ["Yo", "estudio", "JavaScript"];
 
-// // // arr.splice(1, 1); // desde el índice 1 remover 1 elemento
+// arr.splice(0, 1); // desde el índice 1 remover 1 elemento
 
-// // console.log(arr)
+// console.log(arr)
 
-// // console.log(arr.length)
+// console.log(arr.length)
 
-// // remueve los primeros 3 elementos y los reemplaza con otros
-// // devuelve un array con los elementos borrados
+// remueve los primeros 3 elementos y los reemplaza con otros
+// devuelve un array con los elementos borrados
 // let newArr = arr.splice(0, 3, "con", "muchas", "ganas");
 
 // console.log(arr)
@@ -182,11 +182,29 @@
 // `)
 
 // // 1.
-// let users = [
-//   {id: 1, name: "Fran", age: 31},
-//   {id: 2, name: "Katy", age: 18},
-//   {id: 3, name: "Federico", age: 38},
-//   {id: 4, name: "Maria", age: 24},
-//   {id: 5, name: "John", age: 45},
-//   {id: 6, name: "Fran", age: 7},
-// ];
+let users = [
+  {id: 1, name: "Fran", age: 31},
+  {id: 2, name: "Katy", age: 18},
+  {id: 3, name: "Federico", age: 38},
+  {id: 4, name: "Maria", age: 24},
+  {id: 5, name: "John", age: 45},
+  {id: 6, name: "Fran", age: 7},
+];
+
+users.splice(3,2);
+users.splice(1,1);
+console.log(users);
+
+users.push( 
+    {id: 7, name: "Yuri", age: 78},
+    {id: 8, name: "Vladimir", age: 65},
+    {id: 9, name: "Lenin", age: 31},
+);
+
+console.log(users);
+
+
+users.forEach(element => {
+    
+});
+
